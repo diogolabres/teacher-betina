@@ -1,4 +1,4 @@
-package lessmann.betina.TeacherBetina;
+package com.lessmann.betina.TeacherBetina;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

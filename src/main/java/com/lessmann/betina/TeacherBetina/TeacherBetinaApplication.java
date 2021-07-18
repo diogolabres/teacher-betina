@@ -1,4 +1,4 @@
-package lessmann.betina.TeacherBetina;
+package com.lessmann.betina.TeacherBetina;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
