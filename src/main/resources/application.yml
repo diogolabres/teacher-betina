@@ -2,3 +2,13 @@ spring:
   data:
     mongodb:
       uri: ${MONGODB_ATLAS_CONNECTION}
+
+server:
+  error:
+    include-stacktrace: on_param
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -14,7 +14,7 @@ import java.util.List;
  * Standard class for standard repository calls.
  */
 
- public class StandardRepository<T extends StandardInterface, D extends MongoRepository<T, String>> {
+ public class StandardRepository<T extends StandardEntityInterface, D extends MongoRepository<T, String>> {
 
     protected D dao;
 

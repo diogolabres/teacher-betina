@@ -1,6 +1,6 @@
 package com.lessmann.betina.teacherbetina.entities;
 
-import com.lessmann.betina.teacherbetina.standard.StandardInterface;
+import com.lessmann.betina.teacherbetina.standard.StandardEntityInterface;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
@@ -13,7 +13,7 @@ import java.util.List;
 @Document
 @Component
 @Data
-public class Schedule implements StandardInterface {
+public class Schedule implements StandardEntityInterface {
 
     @Id
     private String id;

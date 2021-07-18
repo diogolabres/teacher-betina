@@ -19,7 +19,7 @@ import java.util.List;
  * Control layer with standard endpoints
  */
 
-public class StandardController<T extends StandardInterface, S extends StandardService<T, R, D>, R extends StandardRepository<T, D>, D extends MongoRepository<T, String>> {
+public class StandardController<T extends StandardEntityInterface, S extends StandardService<T, R, D>, R extends StandardRepository<T, D>, D extends MongoRepository<T, String>> {
 
     protected S service;
 

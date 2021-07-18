@@ -19,7 +19,7 @@ import java.util.Objects;
  * Standard projects layer
  */
 
-public class StandardService<T extends StandardInterface, R extends StandardRepository<T, D>, D extends MongoRepository<T, String>> {
+public class StandardService<T extends StandardEntityInterface, R extends StandardRepository<T, D>, D extends MongoRepository<T, String>> {
 
     protected R repository;
 
